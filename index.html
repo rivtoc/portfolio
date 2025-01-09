@@ -28,10 +28,10 @@
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" ><span class="navbar-toggler-icon"></span></button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#Expérience">Experiences</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#Projets">Projets</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#presentation">Présentation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Parcours">Parcours</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Competences">Compétences</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#Proj/exp">Projets et Expériences</a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,7 +48,7 @@
                                     <h2 class="fw-bolder mb-5"><span class="d-inline">Etudiant en 2 ème année d'école d'ingénieur</span></h2>
                                 </div>
                                 <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
-                                    <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="assets/cvVictorGroisne.pdf" download="CV_Victor_Groisne" target="_blank">Mon CV</a>
+                                    <a class="btn couleurBouton btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="assets/cvVictorGroisne.pdf" download="CV_Victor_Groisne" target="_blank">Mon CV</a>
                                     
                                 </div>
                             </div>
@@ -73,11 +73,20 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-xxl-8">
                             <div class="text-center my-5">
-                                <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Présentation</span></h2>
+                                <h2 class="display-5 fw-bolder" id="presentation"><span class="text-gradient d-inline">Présentation</span></h2>
                                
-                                <p class="text-muted">Bonjour ! Je suis Victor Groisne, et j’étudie actuellement à l’ISEN de Rennes en cycle informatique et numérique. J’aime apprendre et pouvoir créer de nouvelles choses, pouvoir avoir les capacités techniques et intellectuelles de réaliser ce que je veux.  </p>
+                                <p class="text-muted">Étudiant en deuxième année d'école
+                                    d'ingénieur à l'ISEN Rennes, je suis
+                                    actuellement à la recherche d'un
+                                    apprentissage.
+                                    Jeune et motivé, je suis un travailleur
+                                    assidu avec une grande soif
+                                    d'apprendre. Curieux de nature,
+                                    j'aime explorer de nouvelles
+                                    compétences et m'adapter à divers
+                                    environnements professionnels.</p>
                                 <div class="d-flex justify-content-center fs-2 gap-4">
-                                    <a class="text-gradient" href="#!" target="_blank"><i class="bi bi-twitter"></i></a>
+                                    
                                     <a class="text-gradient" href="https://www.linkedin.com/in/victor-groisne-a896a625b/" target="_blank"><i class="bi bi-linkedin"></i></a>
                                     <a class="text-gradient" href="https://github.com/rivtoc" target="_blank"><i class="bi bi-github"></i></a>
                                 </div>
@@ -88,7 +97,7 @@
             </section>
             <div class="container px-5 my-5">
                 <div class="text-center mb-5" id="Experience">
-                    <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Parcours</span></h1>
+                    <h1 class="display-5 fw-bolder mb-0" id="Parcours"><span class="text-gradient d-inline">Parcours</span></h1>
                 </div>
                 <div class="row gx-5 justify-content-center">
                     <div class="col-lg-11 col-xl-9 col-xxl-8">
@@ -127,7 +136,7 @@
                         
                             <!-- Skillset Card-->
                             <div class="text-center mb-5" id="Experience">
-                                <h1 class="display-5 fw-bolder mb-0"><span class="text-gradient d-inline">Compétences</span></h1>
+                                <h1 class="display-5 fw-bolder mb-0" id="Competences"><span class="text-gradient d-inline">Compétences</span></h1>
                             </div>
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
@@ -180,7 +189,7 @@
         <section class="page-section bg-light" id="Expériences">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase">Projets et Expériences</h2>
+                    <h2 class="section-heading text-uppercase" id="Proj/exp">Projets et Expériences</h2>
                     <h3 class="section-subheading text-muted"></h3>
                     <div class="profil-navigation">
                         <div class="profil-option active" id="profil-presentation">Tous</div>
@@ -242,24 +251,28 @@
                                
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-6 mb-4 ">
-                                <!-- Portfolio item 4-->
-                                <div class="portfolio-item">
-                                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="futur">
+                                <div class="col-lg-4 col-sm-6 mb-4 ">
+                                    <!-- Portfolio item 4-->
+                                    <div class="portfolio-item">
+                                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
                                         
-                                        <img class="img-fluid" src="assets/decorsPlatformer.webp" alt="..." />
-                                    </a>
+                                            <img class="img-fluid" src="assets/decorsPlatformer.webp" alt="..." />
+                                        </a>
                                    
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-6 mb-4 ">
-                                <!-- Portfolio item 5-->
-                                <div class="portfolio-item">
-                                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="futur">
+                                <div class="col-lg-4 col-sm-6 mb-4 ">
+                                    <!-- Portfolio item 5-->
+                                    <div class="portfolio-item">
+                                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
                                         
-                                        <img class="img-fluid" src="assets/sitedyna.webp" alt="..." />
-                                    </a>
+                                            <img class="img-fluid" src="assets/sitedyna.webp" alt="..." />
+                                        </a>
                                     
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-6 mb-4 ">
@@ -320,24 +333,28 @@
                                     
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-                                <!-- Portfolio item 4-->
-                                <div class="portfolio-item">
-                                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                            <div class="futur">
+                                <div class="col-lg-4 col-sm-6 mb-4 ">
+                                    <!-- Portfolio item 4-->
+                                    <div class="portfolio-item">
+                                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
                                         
-                                        <img class="img-fluid" src="assets/decorsPlatformer.webp" alt="..." />
-                                    </a>
+                                            <img class="img-fluid" src="assets/decorsPlatformer.webp" alt="..." />
+                                        </a>
                                    
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
-                                <!-- Portfolio item 5-->
-                                <div class="portfolio-item">
-                                    <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                            <div class="futur">
+                                <div class="col-lg-4 col-sm-6 mb-4 ">
+                                    <!-- Portfolio item 5-->
+                                    <div class="portfolio-item">
+                                        <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
                                         
-                                        <img class="img-fluid" src="assets/sitedyna.webp" alt="..." />
-                                    </a>
+                                            <img class="img-fluid" src="assets/sitedyna.webp" alt="..." />
+                                        </a>
                                     
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
@@ -466,7 +483,7 @@
                 </div>
             </div>
         </div>
-        <!-- Portfolio item 2 modal popup-->
+        <!-- Portfolio item 3 modal popup-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -476,24 +493,10 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/2.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Explore
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Graphic Design
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
+                                    <h2 class="text-uppercase">Création d'un petit site web des Jeux Olympiques de Paris 2024</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/imagesiteJO.webp" alt="..." />
+                                    <p>Avec deux camarades de classe, nous avions pour mission de réaliser un site web en utilisant les trois "langages" appris en cours de web frontend. Nous avons donc recréé une petite version du site web des JO, où chacun avait une partie précise à réaliser. Ce projet m'a permis d'apprendre à développer un site en équipe, notamment en utilisant GitHub.</p>
                                 </div>
                             </div>
                         </div>
@@ -602,24 +605,10 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
-                                    <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/6.jpg" alt="..." />
-                                    <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Window
-                                        </li>
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Photography
-                                        </li>
-                                    </ul>
-                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
-                                        <i class="fas fa-xmark me-1"></i>
-                                        Close Project
-                                    </button>
+                                    <h2 class="text-uppercase">Organisation d’un tournoi de football inter-écoles.</h2>
+                                    <p class="item-intro text-muted"></p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/logotournoifoot.webp" alt="..." />
+                                    <p>Il s’agit d’un projet lié à mon rôle de président du BDE, bien qu’il soit réalisé sur mon temps libre. Étant sur un petit campus, nous ne sommes pas vraiment intégrés à la vie universitaire rennaise. L’idée de créer une équipe de foot pour l’école et de la faire jouer a tout de suite séduit tout le monde. J’ai donc commencé à contacter plusieurs BDS, et, sur les 10 contactés, les 10 ont accepté de participer. Cependant, comme il s’agit d’un projet que je gère seul, il est parfois difficile de le faire avancer.</p>
                                 </div>
                             </div>
                         </div>
@@ -709,7 +698,7 @@
                                     <h2 class="text-uppercase">Court métrage</h2>
                                     <p class="item-intro text-muted">projet de première année</p>
                                     <img class="d-block mx-auto sizeImg" src="assets/logogustekee.png" alt="..." />
-                                    <p>En ce moment, j’occupe la fonction de président du BDE. Cette fonction implique de faire passer une bonne année à mes camarades, et cela passe par l’organisation d'événements comme le week-end d’intégration, un entraînement de foot quotidien ou encore des activités le jeudi après-midi. Cette expérience m’a forcé à sortir de ma zone de confort, car, étant dans un tout petit campus, la quasi-totalité des activités dépend de ma volonté. Ainsi, tout au long de l’année, j’essaie d’être à l’écoute de mes camarades afin de répondre au mieux à leurs envies.</p>
+                                    <p>Le but de ce projet était de réaliser un court-métrage sur le thème de “faire croire”. De là est né Gustekee, un court-métrage réalisé avec deux camarades, mettant en scène un personnage cherchant à échapper à un secret d’État suite à un scandale découvert. La production a débuté par l’écriture du scénario, ce qui m’a appris à être rigoureux dès les premières étapes d’un projet. Ensuite, nous avons passé une dizaine d’heures à filmer, que ce soit dans les rues de Rennes ou dans nos salles de cours, ce qui m’a appris à me détacher du regard des autres. Enfin, la phase de montage nous a permis d’exploiter nos séquences pour donner vie au projet.</p>
                                     
                                     
                                 </div>
